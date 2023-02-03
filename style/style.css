@@ -1,0 +1,157 @@
+body{
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+color: #262626;
+margin:0 auto;
+}
+
+.header{
+    position: relative;
+}
+/* .nav{
+    height: 50px;
+    line-height: 50px;
+    /* position: relative; */
+
+.header::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 100%;
+    background: #DBDBDB;
+    transform: matrix(1, 0, 0, -1, 0, 0);  
+}
+
+.logo{
+    width: 105px;
+    height: 30px;
+}
+.form-control{
+    max-width: 216px;
+    height: 29px;
+}
+
+.icons>*+*{
+    margin-left: 20px;
+}
+.icons{
+    position: relative;
+}
+.imege_round_red{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -2px;
+    right: 133px;
+    margin: 0;
+}
+.main{
+    padding-top: 29px;   
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+.name>*+*{
+    margin-left: 10px;
+}
+
+.button_follow{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    height: 29px !important;
+    width: 97px !important;
+    display:flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  
+   
+}
+
+.button_drop{
+    height: 29px;
+    width: 33px;
+    display:flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+   
+}
+.followers,
+.info{
+    margin-top: 21px;
+}
+.followers>*+*{
+    margin-left: 35px;
+}
+
+.info_autor{
+    max-width: 531px;
+    height: 51px;
+}
+
+.info p{
+    margin: 0;
+}
+.second{
+    margin-top: 56px !important;
+    
+}
+.avatars>*+*{
+    margin-left: 39px;
+}
+.page{
+    position: relative;
+    padding-top: 19px;
+}
+.page>*+*{
+    margin-left: 36px;
+
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background: #DBDBDB;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.actions{
+    color: #8F8F8F;
+}
+.actions:hover{
+    color: #262626;
+}
+.actions::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0px;
+    height: 1px;
+    background: #262626;
+}
+
+.actions:hover::before{
+    content: "";
+    position: absolute;
+    width: 8%;
+    height: 1px;
+    background: #262626;
+    transition: all  0.2s ease;
+}
+
+.col{
+    margin-bottom: 25px; 
+}
+
+
