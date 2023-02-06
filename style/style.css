@@ -7,14 +7,15 @@ line-height: 25px;
 color: #262626;
 margin:0 auto;
 }
+.container {
+    display: block;
+    max-width: 942px;
+    width: 100%;
+}
 
 .header{
     position: relative;
 }
-/* .nav{
-    height: 50px;
-    line-height: 50px;
-    /* position: relative; */
 
 .header::before{
     content: '';
@@ -102,9 +103,6 @@ margin:0 auto;
     height: 51px;
 }
 
-.info p{
-    margin: 0;
-}
 .second{
     margin-top: 56px !important;
     
@@ -144,14 +142,21 @@ margin:0 auto;
 .actions:hover::before{
     content: "";
     position: absolute;
-    width: 8%;
+    width: 10%;
     height: 1px;
+    top: -1px;
     background: #262626;
     transition: all  0.2s ease;
 }
 
 .col{
     margin-bottom: 25px; 
+}
+
+.square{
+    max-width: 297px;
+    width: 100%;
+    margin-bottom: 10px ;
 }
 
 
