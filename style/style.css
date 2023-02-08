@@ -60,6 +60,11 @@ margin:0 auto;
 .main{
     padding-top: 29px;   
 }
+.about_me{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .name{
     display: flex;
@@ -92,7 +97,7 @@ margin:0 auto;
 }
 .followers,
 .info{
-    margin-top: 21px;
+    /* margin-top: 21px; */
 }
 .followers>*+*{
     margin-left: 35px;
@@ -100,7 +105,7 @@ margin:0 auto;
 
 .info_autor{
     max-width: 531px;
-    height: 51px;
+    
 }
 
 .second{
@@ -157,6 +162,26 @@ margin:0 auto;
     max-width: 297px;
     width: 100%;
     margin-bottom: 10px ;
+}
+
+@media screen and (max-width:770px) {
+    .navi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px ;
+    }
+
+    .icons{
+        margin: 0 auto;
+    }
+
+    .about_author{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
 }
 
 
